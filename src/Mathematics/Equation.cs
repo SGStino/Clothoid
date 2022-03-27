@@ -3,14 +3,14 @@ using System.Diagnostics;
 
 namespace Clothoid.Mathematics
 {
-    internal static class Equation
+    public static class Equation
     {
         public delegate double Func(double argument);
 
         /// <summary>
         /// Finds root of equation "func(x) = 0"
         /// </summary>
-        internal static double SolveSimply(Func func, double start, double startStep, double argumentAccuracy)
+        public static double SolveSimply(Func func, double start, double startStep, double argumentAccuracy)
         {
             var step = startStep;
 
@@ -42,8 +42,8 @@ namespace Clothoid.Mathematics
 
             return arg;
         }
-        
-        internal static double SolveBisection(Func func, double rangeBound1, double rangeBound2, double funcValueAccuracy)
+
+        public static double SolveBisection(Func func, double rangeBound1, double rangeBound2, double funcValueAccuracy)
         {
             var l = Math.Min(rangeBound1, rangeBound2);
             var r = Math.Max(rangeBound1, rangeBound2);
