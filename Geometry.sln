@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothoid", "Clothoid.csproj", "{3EF9CAB0-2C90-4287-A583-E50920D4D89C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clothoid.Tests", "tests\Clothoid.Tests.csproj", "{FAC9DAA8-F266-4733-96D9-FDC31BE8FD34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clothoid", "src\Clothoid.csproj", "{53F0AE3C-04F2-4983-9572-45A557A2871E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3EF9CAB0-2C90-4287-A583-E50920D4D89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EF9CAB0-2C90-4287-A583-E50920D4D89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EF9CAB0-2C90-4287-A583-E50920D4D89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EF9CAB0-2C90-4287-A583-E50920D4D89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC9DAA8-F266-4733-96D9-FDC31BE8FD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC9DAA8-F266-4733-96D9-FDC31BE8FD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC9DAA8-F266-4733-96D9-FDC31BE8FD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC9DAA8-F266-4733-96D9-FDC31BE8FD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F0AE3C-04F2-4983-9572-45A557A2871E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F0AE3C-04F2-4983-9572-45A557A2871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F0AE3C-04F2-4983-9572-45A557A2871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F0AE3C-04F2-4983-9572-45A557A2871E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
